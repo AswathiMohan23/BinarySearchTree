@@ -26,11 +26,6 @@ public class MyBinaryNode <K extends  Comparable<K>>{
 
     public MyBinaryNode() {}
 
-   /* public MyBinaryNode(K data) {
-        this.data = data;
-        this.left = null;
-        this.right = null;
-    }*/
 
     public MyBinaryNode(K data, int key) {
         this.data = data;

@@ -14,9 +14,9 @@ public class MyBinaryTree<K extends Comparable<K>> {
         System.out.println("\nvalue present in the node : ");
         binaryClassTree.traverseTreeData(root);
         size = getSizeOfTree(root);
-        System.out.println("the size of the tree : " + size);
+        System.out.println("\n\nthe size of the tree : " + size);
         System.out.println("\nsearching for for 63");
-        System.out.println(findNode(30));
+        System.out.println(findNode(63));
         System.out.println("\n");
 
 
